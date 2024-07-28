@@ -1,3 +1,6 @@
+---
+sidebar_position: 1
+---
 ## 立创开发板 开源嵌入式组件移植测试 GCC Makefile Pyocd 工程模板建立 
 
 ### Windows环境搭建参考

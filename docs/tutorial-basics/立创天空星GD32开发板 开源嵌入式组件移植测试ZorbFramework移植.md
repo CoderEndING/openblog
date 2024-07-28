@@ -1,4 +1,9 @@
-﻿﻿﻿﻿﻿## 立创开发板 开源嵌入式组件移植测试 02-嵌入式框架Zorb Framework移植 
+---
+sidebar_position: 4
+---
+﻿﻿﻿﻿﻿
+## 立创开发板 开源嵌入式组件移植测试 02-嵌入式框架Zorb Framework移植 
+
 
 ###  Zorb Framework
 
@@ -22,8 +27,10 @@
 
  前6个功能，就可以实现纯事件驱动的程序，基本可以满足中小型嵌入式应用程序开发的需求。加上任务功能，是为了满足部分程序对实时性要求较高的需求。当然，也可以将前6个功能裁剪出来，然后运行在现有的嵌入式系统上面，这样子也可以满足实时性的需求。
 
+
 ### 一、移植前的准备
-###   1. 准备目标硬件（开发板/芯片/模组）
+
+####    1. 准备目标硬件（开发板/芯片/模组）
 
 Zorb Framework支持ARM Cortex M3/M4的内核的芯片的移植。本教程将使用立创开发板GD32F407进行示例移植，其他 ARM Cortex M3/M4系列开发板和芯片移植方法类似。
 
@@ -31,13 +38,14 @@ Zorb Framework支持ARM Cortex M3/M4的内核的芯片的移植。本教程将�
 
 ![](pic/gd32-lckfb.jpg)
 
-###   2.准备编译器环境
+
+####    2.准备编译器环境
 
 本移植指南针对的是Keil编译器，所以我们移植内核前需要先安装Keil编译器，能编译ARM Cortex M核的Keil编译器现在也叫MDK。
 
 下载地址为：https://www.keil.com/demo/eval/arm.htm
 
-###   3. 准备芯片对应的裸机工程
+####   3. 准备芯片对应的裸机工程
 
 移植Zorb Framework基础内核需要您提前准备一个芯片对应的裸机工程，裸机工程包含基本的芯片启动文件、基础配置（时钟、主频等）、以及串口1和systick，其中串口1提供调试打印功能，systick提供系统时间计数功能。
 
@@ -45,7 +53,7 @@ Zorb Framework支持ARM Cortex M3/M4的内核的芯片的移植。本教程将�
 
 ![](pic/gd32-zf-02.jpg)
 
-###   4. 准备Zorb Framework的源码
+####    4. 准备Zorb Framework的源码
 Zorb Framework的源码已经开源，github仓库地址 https://github.com/54zorb/Zorb-Framework)
 
 | 一级目录 | 说明                                                |
@@ -60,19 +68,20 @@ Zorb Framework的源码已经开源，github仓库地址 https://github.com/54zo
 
 ![](pic/gd32-zf-05.jpg)
 
+
 ### 二、移植
 
 打开keil工程，开始添加Zorb Framework的内核代码。
 
-### 1. 添加Zorb Framework源代码文件
+####  1. 添加Zorb Framework源代码文件
 
 ![](pic/gd32-zf-06.jpg)
 
-### 2. 添加Zorb Framework头文件目录
+####  2. 添加Zorb Framework头文件目录
 
 ![](pic/gd32-zf-07.jpg)
 
-### 3. 系统滴答计数器 中断相关配置
+####  3. 系统滴答计数器 中断相关配置
 
 1. 配置SysTick_Handler
 
@@ -100,11 +109,11 @@ Zorb Framework的源码已经开源，github仓库地址 https://github.com/54zo
 
 ###  三、测试移植结果
 
-#### 1. 添加app_test测试代码
+####  1. 添加app_test测试代码
 
 ![](pic/gd32-zf-13.jpg)
 
-#### 2. 编写测试代码
+####  2. 编写测试代码
 
 ```c
 /*
@@ -309,7 +318,7 @@ void delay_ms(uint32_t _ms);
 
 ```
 
-#### 3. 编译下载观察效果
+####  3. 编译下载观察效果
 
 1. 测试时基释放正常输出（ZF_DEBUG，ZF_TIME）
 
