@@ -11,7 +11,6 @@ TencentOS tiny支持ARM Cortex M核芯片和RISC-V内核的芯片的移植，比
 
 本移植指南针对的是Keil编译器，所以我们移植内核前需要先安装Keil编译器，能编译ARM Cortex M核的Keil编译器现在也叫MDK。
 
-下载地址为：[https://www.keil.com/demo/eval/arm.htm]()
 
 ###   3. 准备芯片对应的裸机工程
 
