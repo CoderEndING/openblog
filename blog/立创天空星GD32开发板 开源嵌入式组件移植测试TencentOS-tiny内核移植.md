@@ -19,7 +19,7 @@ TencentOS tiny支持ARM Cortex M核芯片和RISC-V内核的芯片的移植，比
 ![](pic/gd32-rtos-01.jpg)
 
 ###   4. 准备TencentOS tiny的源码
-TencentOS tiny的源码已经开源，github下载地址为：[https://github.com/Tencent/TencentOS-tiny.git]()
+TencentOS tiny的源码已经开源，github下载地址为：https://github.com/Tencent/TencentOS-tiny.git
 
 | 一级目录 | 二级目录 | 说明                                                         |
 | -------- | -------- | ------------------------------------------------------------ |
