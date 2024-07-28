@@ -1,5 +1,7 @@
-
-## 03-GD32F307E-START开发板评测 SPI-OLED显示模块移植
+---
+sidebar_position: 7
+---
+## -GD32F307E-START开发板评测 SPI-OLED显示模块移植
 ### 软硬件平台
 
 1. GD32F307E-START Board开发板

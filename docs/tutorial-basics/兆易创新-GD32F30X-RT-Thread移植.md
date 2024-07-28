@@ -1,5 +1,7 @@
-
-## 02-GD32F307E-START开发板评测 移植RT-Thread 
+---
+sidebar_position: 8
+---
+## GD32F307E-START开发板评测 移植RT-Thread 
 
 ### 1. 软硬件平台
 

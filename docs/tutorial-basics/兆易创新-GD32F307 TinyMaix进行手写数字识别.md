@@ -1,4 +1,7 @@
-## 04-GD32F307E-START开发板评测 使用TinyMaix进行手写数字识别
+---
+sidebar_position: 6
+---
+## GD32F307E-START开发板评测 使用TinyMaix进行手写数字识别
 
 ### 参考博客 
 

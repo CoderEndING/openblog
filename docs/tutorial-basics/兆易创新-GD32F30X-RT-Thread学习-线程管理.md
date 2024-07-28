@@ -1,3 +1,6 @@
+---
+sidebar_position: 9
+---
 ## 05-GD32F307E-START开发板评测 RT-Thread学习-线程管理
 
 ### 1. 软硬件平台
