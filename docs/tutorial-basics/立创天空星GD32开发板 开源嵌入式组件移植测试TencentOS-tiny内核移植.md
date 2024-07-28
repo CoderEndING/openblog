@@ -1,6 +1,5 @@
-﻿﻿﻿﻿
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 ## 立创开发板 开源嵌入式组件移植测试 01-TencentOS tiny内核移植
