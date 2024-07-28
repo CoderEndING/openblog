@@ -5,25 +5,25 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'OpenStudyNote',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/note.jpg').default,
     description: (
       <>
-       OpenStudyNote:Summary of personal study notes.
+       OpenStudyNote Summary of personal study notes.
       </>
     ),
   },
   {
-    title: 'Embedded-GD32-Board-Template ',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Embedded-MCU-Board-Template ',
+    Svg: require('@site/static/img/robot.jpg').default,
     description: (
       <>
-      Embedded-GD32-Board-Template:Embedded MCU development tutorial
+      Embedded-MCU-Board-Template:STM32,GD32,CW32,AT32,APM32,ACM32,RA-MCU....
       </>
     ),
   },
   {
     title: 'Embedded-RTOS-Template',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/rtos.jpg').default,
     description: (
       <>
         Embedded-RTOS-Template:Embedded RTOS development tutorial
