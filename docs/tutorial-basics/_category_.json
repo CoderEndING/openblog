@@ -1,6 +1,6 @@
 {
-  "label": "Basic-Note",
-  "position": 2,
+  "label": "BasicNote",
+  "position": 1,
   "link": {
     "type": "generated-index",
     "Embedded-BasicNote"
