@@ -1,8 +1,7 @@
 {
-  "label": "BasicNote",
+  "label": "tutorial-basics",
   "position": 1,
   "link": {
     "type": "generated-index",
-    "Embedded-BasicNote"
   }
 }
