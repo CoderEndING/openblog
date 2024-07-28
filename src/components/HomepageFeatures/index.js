@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'OpenStudyNote',
-    Svg: require('@site/static/img/note.jpg').default,
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
        OpenStudyNote Summary of personal study notes.
@@ -14,16 +14,16 @@ const FeatureList = [
   },
   {
     title: 'Embedded-MCU-Board-Template ',
-    Svg: require('@site/static/img/robot.jpg').default,
+    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-      Embedded-MCU-Board-Template:STM32,GD32,CW32,AT32,APM32,ACM32,RA-MCU....
+      Embedded-MCU-Board-Template:STM32,GD32,CW32,AT32,APM32,ACM32,RA-MCU
       </>
     ),
   },
   {
     title: 'Embedded-RTOS-Template',
-    Svg: require('@site/static/img/rtos.jpg').default,
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
         Embedded-RTOS-Template:Embedded RTOS development tutorial
