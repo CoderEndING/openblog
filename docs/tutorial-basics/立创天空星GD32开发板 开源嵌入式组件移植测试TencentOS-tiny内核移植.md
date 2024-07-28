@@ -5,7 +5,9 @@ sidebar_position: 3
 ## 立创开发板 开源嵌入式组件移植测试 01-TencentOS tiny内核移植
 
 
+
 ### 一、移植前的准备
+
 
 ###   1. 准备目标硬件（开发板/芯片/模组）
 
@@ -14,9 +16,11 @@ TencentOS tiny支持ARM Cortex M核芯片和RISC-V内核的芯片的移植，比
 ![](pic/gd32-lckfb.jpg)
 
 
+
 ###   2.准备编译器环境
 
 本移植指南针对的是Keil编译器，所以我们移植内核前需要先安装Keil编译器，能编译ARM Cortex M核的Keil编译器现在也叫MDK。
+
 
 
 
@@ -25,6 +29,7 @@ TencentOS tiny支持ARM Cortex M核芯片和RISC-V内核的芯片的移植，比
 移植TencentOS tiny基础内核需要您提前准备一个芯片对应的裸机工程，裸机工程包含基本的芯片启动文件、基础配置（时钟、主频等）、以及串口、基本GPIO驱动用于RTOS测试。
 
 ![](pic/gd32-rtos-01.jpg)
+
 
 ###   4. 准备TencentOS tiny的源码
 TencentOS tiny的源码已经开源，github下载地址为：https://github.com/Tencent/TencentOS-tiny.git
@@ -41,9 +46,11 @@ TencentOS tiny的源码已经开源，github下载地址为：https://github.com
 ![](pic/gd32-rtos-02.jpg)
 
 
+
 ### 二、内核移植
 
 打开keil工程，开始添加TencentOS tiny的内核代码。
+
 
 
 #### 1. 添加arch平台代码
@@ -61,6 +68,7 @@ tos_cpu.c是TencentOS tiny 的CPU适配文件，包括堆栈初始化，中断�
 port_s.S 文件是TencentOS tiny的任务调度汇编代码，主要做弹栈压栈等处理的，port_c.c适配systick等，这两个文件 每个IP核和编译器都是不一样的，如果您的芯片是ARM Cortex M核，我们都已经适配好，比如现在我们移植的芯片是GD32F407VET6，是ARM Cortex M4核，使用的编译器是KEIL，所以我们选择arch\arm\arm-v7m\cortex-m4\armcc下的适配代码，如果你的开发板是STM32F429IG，M4核，编译器是GCC，则可以选择arch\arm\arm-v7m\cortex-m4\gcc目录下的适配文件。
 
 
+
 #### 2. 添加内核源码
 
 内核源码kerne目录下包含core和pm两个目录，其中core下为基础内核，pm是内核中的低功耗组件；基础移植的时候可以不添加pm目录下的代码，如下图所示，添加全部基本内核源码：
@@ -70,6 +78,7 @@ port_s.S 文件是TencentOS tiny的任务调度汇编代码，主要做弹栈压
 ![](pic/gd32-rtos-04-1.jpg)
 
 ![](pic/gd32-rtos-04-2.jpg)
+
 
 
 #### 3. 添加cmsis os源码
@@ -83,6 +92,7 @@ cmsis os是TencentOS tiny为了兼容cmsis标准而适配的OS抽象层，可以
 ![](pic/gd32-rtos-05.jpg)
 
 
+
 #### 4. 添加TencentOS tiny头文件目录
 
 添加头文件目录前，我们在要移植的工程目录下新增一个 TOS_CONFIG文件夹，用于存放TencentOS tiny的配置头文件，也就是接下来要新建的tos_config.h文件；
@@ -90,6 +100,7 @@ cmsis os是TencentOS tiny为了兼容cmsis标准而适配的OS抽象层，可以
 TencentOS tiny所有要添加的头文件目录如下：
 
 ![](pic/gd32-rtos-06.jpg)
+
 
 
 
@@ -204,8 +215,8 @@ TencentOS tiny所有要添加的头文件目录如下：
 这样，TencentOS tiny的源码就全部添加完毕了。
 
 
-###  三、创建TencentOS tiny任务，测试移植结果
 
+###  三、创建TencentOS tiny任务，测试移植结果
 
 #### 1. 修改部分代码
 **修改gd32f4xx_it.c的中断函数,在gd32f4xx_it.c文件中包含 tos_k.h 头文件**
@@ -219,6 +230,7 @@ TencentOS tiny所有要添加的头文件目录如下：
 同时在SysTick_Handler函数中添加TencentOS tiny的调度处理函数，如下图所示：
 
 ![](pic/gd32-rtos-09.jpg)
+
 
 
 #### 2.  编写TencentOS tiny 测试任务
@@ -273,6 +285,7 @@ void task2(void *pdata)
  如图：
 
 ![](pic/gd32-rtos-11.jpg)
+
 
 
 ####  3. 编译下载测试TencentOS tiny移植结果
