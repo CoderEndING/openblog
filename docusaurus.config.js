@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'OpenStudyNote',
   tagline: 'Embedded-BasicNote',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://openblog-coderend.vercel.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
