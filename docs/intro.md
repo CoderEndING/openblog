@@ -1,5 +1,8 @@
 # EmbeddedNote
-
+🌱 研究方向：个人兴趣方向:嵌入式系统开发；研究生研究方向:混沌系统和图像加密算法等。
+📫 联系方式：邮箱：delelemonwzx@163.com
+🌱 当前正在学习：C/C++、MATLAB、STM32/GD32/AT32/APM32/CW32,嵌入式Linux系统等。
+💬 电子信息工程专业学生，希望成为嵌入式工程师,嵌入式软件工程师,电子工程师。
 ## 教育背景
 
 **西安邮电大学 -电子工程学院-电子信息(硕士)  2022.09 - 2025.06**
@@ -112,9 +115,9 @@ SCI论文 Physica Scripta 2024 [查看论文](https://iopscience.iop.org/article
 
 嵌入式工程师 嵌入式软件工程师 电子工程师
 
-## 联系方式
+## Blog
 
-Email [delelemonwzx@163.com](mailto:[delelemonwzx@163.com](mailto:delelemonwzx@163.com))
+Email [](mailto:[delelemonwzx@163.com](mailto:delelemonwzx@163.com))
 
 Blog https://openblog-coderend.top/
 
