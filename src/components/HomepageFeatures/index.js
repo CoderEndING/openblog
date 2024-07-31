@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-       OpenStudyNote Summary of personal study notes.
+       OpenStudyNote: Summary of personal study notes.
       </>
     ),
   },
@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-      Embedded-MCU-Board-Template:STM32,GD32,CW32,AT32,APM32,ACM32,RA-MCU
+      Embedded-MCU-Board-Template: STM32,GD32,CW32,AT32,APM32,ACM32,RA-MCU....
       </>
     ),
   },
@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Embedded-RTOS-Template:Embedded RTOS development tutorial
+        Embedded-RTOS-Template:  Embedded RTOS development tutorial
       </>
     ),
   },
