@@ -118,13 +118,11 @@ SCI论文 Physica Scripta 2024 [查看论文](https://iopscience.iop.org/article
 
 ## Blog
 
-Email [](mailto:[delelemonwzx@163.com](mailto:delelemonwzx@163.com))
-
-Blog https://openblog-coderend.top/
+Blog: https://openblog-coderend.top/
 
 Gitee:https://gitee.com/End-ING
 
-
+CSDN: https://delehub.blog.csdn.net/
 
 
 
