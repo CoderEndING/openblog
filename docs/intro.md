@@ -35,9 +35,13 @@ SCI论文 Physica Scripta 2024 [查看论文](https://iopscience.iop.org/article
 ## 奖项证书
 
 2022年第十九届中国研究生数学建模竞赛三等奖
-2020年安徽省机器人大赛单片机与嵌入式系统竞赛(STM32平台）一等奖 
+
+2020年安徽省机器人大赛单片机与嵌入式系统竞赛一等奖 
+
 2020年安徽省高校物联网应用创新大赛技能赛 二等奖
+
 2020年第十五届全国大学生智能车竞赛创意组 三等奖
+
 ## 项目经历
 
 ### 基于紫光同创FPGA的混沌信号的实现
@@ -76,7 +80,9 @@ SCI论文 Physica Scripta 2024 [查看论文](https://iopscience.iop.org/article
 
 ## Blog
 Blog: https://openblog-coderend.top/
+
 Gitee:https://gitee.com/End-ING
+
 CSDN: https://delehub.blog.csdn.net/
 
 
