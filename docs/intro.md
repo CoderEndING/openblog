@@ -24,13 +24,10 @@ SCI论文 Physica Scripta 2024 [查看论文](https://iopscience.iop.org/article
 
 ## 专业技能
 
-1. 熟悉C语言,Matlab,Python开发,熟悉基本数据结构,熟练使用Keil,IAR,GCC,AD等嵌入式开发工具,具有基本软硬设件调试能力；
+1. 熟悉C语言,Matlab,Python开发,熟悉基本数据结构, 熟练使用主流嵌入式开发工具，具有基本软硬设件调试能力；
 2. 熟悉嵌入式MCU芯片开发(STM32,GD32,CW32,瑞萨RA系列等),熟悉MCU基本外设使用,熟悉基本MCU外设通信协议；
-3. 熟悉Git基本操作，熟悉基本Linux命令，了解Liunx相关开发；
-4. 熟悉RTOS(FreeRTOS,RT-Thread)原理及应用开发,如任务管理,内存管理,任务同步与通信等,了解Linux系统相关应用开发；
-5. 熟悉Altium Designer原理图绘制与PCB制作；
-6. 熟悉Verilog和FPGA开发软件使用，具有紫光同创FPGA开发经验；
-7. 了解ARM和RISC-V体系框架。
+3. 具有RTOS(FreeRTOS、RT-Thread)应用开发经验；
+4. 熟悉Verilog和FPGA开发软件使用，具有紫光同创FPGA开发经验；
 
 ## 奖项证书
 
