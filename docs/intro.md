@@ -52,8 +52,8 @@ SCI论文 Physica Scripta 2024 [查看论文](https://iopscience.iop.org/article
 ### 基于GD32的多功能环境检测仪设计
 #### GD32 FreeRTOS 2024 
 **Embedded-GD32-Board-Template 兆易创新GD32  https://gitee.com/End-ING/embedded-gd32-board-template**
-![](pic/gd1.]jpg)
-![](pic/gd2.]jpg)
+![](pic/gd1.jpg)
+![](pic/gd2.jpg)
 本项目设计了基于兆易创新GD32F4系列微控制器的多功能环境检测装置，通过对多种环境传感器数据的采集，实现环境参数实时监测，使用显示屏幕模块和按键模块进行用户信息展示与交互。同时连接物联网云平台，将传感器数据通发送到云端，实现远程监测。项目移植实时操作系统FreeRTOS实现多任务管理。移植FreeModbus协议，实现Modbus通讯功能。
 #### 主要职责：
 ![](pic/gd.jpg)
