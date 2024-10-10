@@ -51,9 +51,14 @@ SCI论文 Physica Scripta 2024 [查看论文](https://iopscience.iop.org/article
 2. 使用模拟电路元器件，完成混沌电路系统的模拟电路设计验证。利用国厂紫光同创FPGA开发板进行硬件数字电路验证，编写Verilog程序(Euler、Runge-Kutta算法，状态机、浮点数转换定点数，查找表)，使用DAC模块将数字信号转换成模拟信号,完成混沌信号的生成。
 ### 基于GD32的多功能环境检测仪设计
 #### GD32 FreeRTOS 2024 
-**Embedded-GD32-Board-Template 兆易创新GD32  https://gitee.com/End-ING/embedded-gd32-board-template**
+**Embedded-GD32-Board-Template 兆易创新GD32**
+
+**https://gitee.com/End-ING/embedded-gd32-board-template**
+
 ![](pic/gd1.jpg)
+
 ![](pic/gd2.jpg)
+
 本项目设计了基于兆易创新GD32F4系列微控制器的多功能环境检测装置，通过对多种环境传感器数据的采集，实现环境参数实时监测，使用显示屏幕模块和按键模块进行用户信息展示与交互。同时连接物联网云平台，将传感器数据通发送到云端，实现远程监测。项目移植实时操作系统FreeRTOS实现多任务管理。移植FreeModbus协议，实现Modbus通讯功能。
 #### 主要职责：
 ![](pic/gd.jpg)
@@ -66,8 +71,12 @@ SCI论文 Physica Scripta 2024 [查看论文](https://iopscience.iop.org/article
 
 ### 基于CW32的无刷电机驱动控制系统
 #### CW32 BLDC 2023
+
+**Embedded-CW32-Board-Template 武汉芯源CW32** 
+
+**https://gitee.com/End-ING/embedded-cw32-board-template**
+
 ![](pic/cw1.jpg)
-**Embedded-CW32-Board-Template 武汉芯源CW32 https://gitee.com/End-ING/embedded-cw32-board-template**
 
 本项目设计一个基于CW32的无刷电机控制系统，其核心控制单元采用CW32F030单片机。该系统实现了方波有感控制和方波无感控制两种模式，以满足不同应用场景下的需求。通过ADC接口实时读取电流和电压值，通过电位器调整电机速度，通过温度传感器获取温度值，并通过OLED显示屏展示系统状态、参数等信息。
 ##### 主要职责：
