@@ -66,8 +66,9 @@ SCI论文 Physica Scripta 2024 [查看论文](https://iopscience.iop.org/article
 
 ### 基于CW32的无刷电机驱动控制系统
 #### CW32 BLDC 2023
-**Embedded-CW32-Board-Template 武汉芯源CW32 https://gitee.com/End-ING/embedded-cw32-board-template**
 ![](pic/cw1.jpg)
+**Embedded-CW32-Board-Template 武汉芯源CW32 https://gitee.com/End-ING/embedded-cw32-board-template**
+
 本项目设计一个基于CW32的无刷电机控制系统，其核心控制单元采用CW32F030单片机。该系统实现了方波有感控制和方波无感控制两种模式，以满足不同应用场景下的需求。通过ADC接口实时读取电流和电压值，通过电位器调整电机速度，通过温度传感器获取温度值，并通过OLED显示屏展示系统状态、参数等信息。
 ##### 主要职责：
 ![](pic/cw.jpg)
