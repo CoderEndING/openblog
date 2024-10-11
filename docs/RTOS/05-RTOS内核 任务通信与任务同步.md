@@ -643,8 +643,6 @@
 
    4. 消息队列工作原理
 
-      ![](rtos-queue.gif)
-
       **向队列中写数据 xQueueSend** 
 
       **从队列中读数据 xQueueReceive** 
