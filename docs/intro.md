@@ -80,6 +80,8 @@ SCI论文 Physica Scripta 2024 [查看论文](https://iopscience.iop.org/article
 
 ### 基于紫光同创FPGA的混沌信号的实现
 #### FPGA MATLAB Verilog 2024
+![](pic/cw.jpg)
+
 项目简述：项目来源于研究生科研项目，研究方向为混沌信号的硬件实现与图像加密应用。通过将连续混沌系统微分方程进行数值迭代运算，利用MATLAB进行仿真分析绘制系统运动轨迹。同时，使用Verilog编写混沌系统离散化代码，在Modelsim软件上进行仿真验证。最后，使用DAC转换模块和国产紫光同创PGL50H-FPGA开发板，将系统产生的数字信号转换为模拟信号，并在示波器上显示系统的运动轨迹。
 ##### 主要职责：
 1. 使用数值方法求解微分方程(Euler、Runge-Kutta)，利用MATLAB进行仿真分析绘制系统运动轨迹。
