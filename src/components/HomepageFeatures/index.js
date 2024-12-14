@@ -21,7 +21,7 @@ const FeatureList = [
   },
   {
     title: 'Embedded-RTOS-Note',
-    Svg: require('@site/static/img/embedded3.svg').default,
+    Svg: require('@site/static/img/embedded1.svg').default,
     description: (
       <>
       </>
