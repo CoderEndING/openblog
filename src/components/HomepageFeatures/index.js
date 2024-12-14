@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Embedded-MCU-Board-Note',
-    Svg: require('@site/static/img/embedded-icon-1.jpg').default,
+    Svg: require('@site/static/img/embedded1.svg').default,
     description: (
       <>
       </>
@@ -13,7 +13,7 @@ const FeatureList = [
   },
   {
     title: 'Embedded-Linux-System-Note',
-    Svg: require('@site/static/img/embedded-icon-2.jpg').default,
+    Svg: require('@site/static/img/embedded2.svg').default,
     description: (
       <>
       </>
@@ -21,7 +21,7 @@ const FeatureList = [
   },
   {
     title: 'Embedded-RTOS-Note',
-    Svg: require('@site/static/img/embedded-icon-3.jpg').default,
+    Svg: require('@site/static/img/embedded3.svg').default,
     description: (
       <>
       </>
