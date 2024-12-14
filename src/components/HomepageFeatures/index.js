@@ -4,29 +4,26 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'OpenStudyNote',
+    title: 'Embedded-MCU-Board-Note',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-       OpenStudyNote: Summary of personal study notes.
       </>
     ),
   },
   {
-    title: 'Embedded-MCU-Board-Template ',
+    title: 'Embedded-Linux-System-Note',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-      Embedded-MCU-Board-Template: STM32,GD32,CW32,AT32,APM32,ACM32,RA-MCU....
       </>
     ),
   },
   {
-    title: 'Embedded-RTOS-Template',
+    title: 'Embedded-RTOS-Note',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Embedded-RTOS-Template:  Embedded RTOS development tutorial
       </>
     ),
   },
