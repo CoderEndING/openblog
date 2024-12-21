@@ -64,7 +64,7 @@ SCI论文 Physica Scripta 2024 [查看论文](https://iopscience.iop.org/article
 ### 基于CW32的无刷电机驱动控制系统
 #### CW32 BLDC 2023
 
-![](pic/cw.jpg)
+![](pic/cw32-bldc.jpg)
 
 **Embedded-CW32-Board-Template 武汉芯源CW32** 
 
